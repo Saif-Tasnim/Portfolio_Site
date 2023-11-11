@@ -6,6 +6,7 @@ import TypeAnimationReact from '../../../Animation/TypeAnimationReact';
 
 const Banner = () => {
     const [textColor, setTextColor] = useState("#8A2BE2")
+    
     return (
         <section className='pt-24 pb-8 lg:py-48 flex flex-col justify-center gap-20 lg:flex-row lg:justify-evenly h-screen'>
 
@@ -16,11 +17,11 @@ const Banner = () => {
                 <p className='flex flex-col gap-2 lg:flex-row lg:justify-center items-center lg:gap-5 text-lg py-2'>Greetings from
                     <span className='font-bold text-2xl'> Saif Tasnim Chowdhury </span> </p>
 
-                <p className='text-lg text-center pt-4 lg:pt-3 font-light'>Passionate about Crafting Digital Experiences. </p>
+                <p className='text-lg text-center pt-4 lg:pt-8 lg:text-2xl font-light lg:font-semibold lg:italic'>Passionate about Crafting Digital Experiences. </p>
 
                 {/* type animation */}
                 <p
-                    className='pt-12 font-bold hidden pl-8 text-2xl lg:flex flex-col items-center gap-5'
+                    className='pt-16 font-bold hidden pl-8 text-2xl lg:flex flex-col items-center gap-5'
                 > <span> Specializing in </span>
 
                     <span style={{ color: textColor }}
@@ -30,15 +31,16 @@ const Banner = () => {
                             setTextColor={setTextColor}
                         ></TypeAnimationReact>
                     </span>
-
                 </p>
 
             </div>
 
+
             {/* image section */}
-            <div className="w-auto rounded-full border-2 border-purple-500 text-center mx-10 lg:mx-0 lg:mr-20 mb-12">
+            <div className="w-auto lg:w-[360px] lg:h-[350px] rounded-full  
+            text-center mx-10 lg:mx-0 lg:mr-20 mb-12 lg:-mt-7">
                 <img src={img}
-                    className='w-full h-full rounded-full'
+                    className='w-full h-full rounded-full border-2 border-purple-500'
                     alt="" />
             </div>
 

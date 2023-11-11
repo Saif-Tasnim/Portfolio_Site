@@ -7,10 +7,12 @@ import Skills from '../Components/PCCompo/Skills/Skills';
 import Education from '../Components/PCCompo/Education/Education';
 import Projects from '../Components/PCCompo/Projects/Projects';
 import Contact from '../Components/PCCompo/Contact/Contact';
+import ParticlesAnimation from '../Animation/ParticlesAnimation';
 
 const PortfolioPage = () => {
     return (
         <div>
+            {/* <ParticlesAnimation> </ParticlesAnimation> */}
             <Header></Header>
             <Banner></Banner>
             <About></About>

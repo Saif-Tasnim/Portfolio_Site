@@ -6,10 +6,10 @@ const Header = () => {
 
     return (
 
-        <section className='px-5 fixed top-0 bg-[#242424] w-full py-2 lg:py-6 flex justify-between items-center'>
+        <section className='px-5 fixed top-0 bg-[#1b2022] w-full py-2 lg:py-6 flex justify-between items-center'>
 
             <div>
-                <h1 className="uppercase font-bold tracking-widest lg:mx-24" >
+                <h1 className={`uppercase font-bold tracking-widest lg:mx-24 ${open? "-translate-y-20 transition-all duration-700" : "block transition-all duration-700"}`} >
                     <a href='/'> saif tasnim chy </a>
                 </h1>
             </div>

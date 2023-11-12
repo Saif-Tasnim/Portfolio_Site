@@ -5,6 +5,6 @@ import PortfolioPage from './Page/PortfolioPage.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <PortfolioPage></PortfolioPage>
+   <PortfolioPage></PortfolioPage>
   </React.StrictMode>,
 )

@@ -9,6 +9,7 @@ import Projects from '../Components/PCCompo/Projects/Projects';
 import Contact from '../Components/PCCompo/Contact/Contact';
 import ParticlesAnimation from '../Animation/ParticlesAnimation';
 
+
 const PortfolioPage = () => {
     return (
         <div>

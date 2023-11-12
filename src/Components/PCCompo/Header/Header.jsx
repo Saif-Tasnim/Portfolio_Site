@@ -16,21 +16,21 @@ const Header = () => {
 
             <div className='mr-7 hidden lg:block'>
                 <ul className='flex items-center gap-7'>
-                    <li className='border-b-4 border-[#242424] hover:border-purple-600 hover:transition-all duration-700'> <a href="/"> Home </a> </li>
+                    <li className='border-b-4 border-[#1b2022] hover:border-purple-600 hover:transition-all duration-700'> <a href="/"> Home </a> </li>
                     
-                    <li className='border-b-4 border-[#242424] hover:border-purple-600 hover:transition-all duration-700'> <a href="about"> About </a> </li>
+                    <li className='border-b-4 border-[#1b2022] hover:border-purple-600 hover:transition-all duration-700'> <a href="about"> About </a> </li>
                     
-                    <li className='border-b-4 border-[#242424] hover:border-purple-600 hover:transition-all duration-700'> <a href="about"> Experience </a>  </li>
+                    <li className='border-b-4 border-[#1b2022] hover:border-purple-600 hover:transition-all duration-700'> <a href="about"> Experience </a>  </li>
                     
-                    <li className='border-b-4 border-[#242424] hover:border-purple-600 hover:transition-all duration-700'><a href="about"> Skills </a></li>
+                    <li className='border-b-4 border-[#1b2022] hover:border-purple-600 hover:transition-all duration-700'><a href="about"> Skills </a></li>
                    
-                    <li className='border-b-4 border-[#242424] hover:border-purple-600 hover:transition-all duration-700'><a href="about"> Education </a></li>
+                    <li className='border-b-4 border-[#1b2022] hover:border-purple-600 hover:transition-all duration-700'><a href="about"> Education </a></li>
                     
-                    <li className='border-b-4 border-[#242424] hover:border-purple-600 hover:transition-all duration-700'><a href="about"> Projects </a></li>
+                    <li className='border-b-4 border-[#1b2022] hover:border-purple-600 hover:transition-all duration-700'><a href="about"> Projects </a></li>
                     
-                    <li className='border-b-4 border-[#242424] hover:border-purple-600 hover:transition-all duration-700'> <a href="about"> Testimonial </a> </li>
+                    <li className='border-b-4 border-[#1b2022] hover:border-purple-600 hover:transition-all duration-700'> <a href="about"> Testimonial </a> </li>
                    
-                    <li className='border-b-4 border-[#242424] hover:border-purple-600 hover:transition-all duration-700'> <a href="about"> Contact </a> </li>
+                    <li className='border-b-4 border-[#1b2022] hover:border-purple-600 hover:transition-all duration-700'> <a href="about"> Contact </a> </li>
                 </ul>
             </div>
 

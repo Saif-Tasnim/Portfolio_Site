@@ -12,5 +12,7 @@
 html[data-theme='dark'] {
   background-color: #1b2022;
   color: #feffff;
+  scroll-behavior: smooth;
+  scroll-snap-type: initial;
 
 }

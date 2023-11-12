@@ -1,11 +1,23 @@
 import React from 'react';
 import { particlesConfig } from './particles';
-import Particles from 'react-tsparticles';
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
+
 
 const ParticlesAnimation = () => {
+
+    const particlesInit = async (main) => {
+        console.log(main);
+        await loadFull(main);
+    };
+
     return (
-        <Particles params={particlesConfig}>
-            
+        <Particles
+            id='tsparticles'
+            options={particlesConfig}
+            init={particlesInit}
+        >
+
         </Particles>
 
     );

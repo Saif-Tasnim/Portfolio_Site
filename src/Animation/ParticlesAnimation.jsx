@@ -12,6 +12,7 @@ const ParticlesAnimation = () => {
     };
 
     return (
+
         <Particles
             id='tsparticles'
             options={particlesConfig}

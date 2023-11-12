@@ -12,12 +12,9 @@ import ParticlesAnimation from '../Animation/ParticlesAnimation';
 const PortfolioPage = () => {
     return (
         <div>
-            <div className='h-screen'>
-                <ParticlesAnimation></ParticlesAnimation>
-                <Header></Header>
-                <Banner></Banner>
-            </div>
-
+            <ParticlesAnimation />
+            <Header></Header>
+            <Banner></Banner>
             <About></About>
             <Experience></Experience>
             <Skills></Skills>

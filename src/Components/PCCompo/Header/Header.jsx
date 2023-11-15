@@ -65,7 +65,7 @@ const Header = () => {
                 </h1>
             </div>
 
-            <div className='mr-7 hidden lg:block'>
+            <div className='mr-7 hidden lg:block  z-30'>
                 <ul className='flex items-center gap-7'>
                     <li className='border-b-4 border-[#1b2022] hover:border-purple-600 hover:transition-all hover:cursor-pointer duration-700'>
                         <Link

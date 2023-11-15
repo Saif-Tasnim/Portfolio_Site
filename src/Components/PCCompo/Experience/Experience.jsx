@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = () => {
     return (
-        <div id='experience' className='my-28 flex justify-center items-center gap-6 h-screen border-2'>
+        <div id='experience' className='my-28 flex justify-center items-center gap-6 h-screen'>
             {/* left part */}
             <div>
                 img

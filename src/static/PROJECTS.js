@@ -13,8 +13,6 @@ export const FULL_STACK = [
       "JWT",
       "React Query",
       "Firebase",
-      "Vercel",
-      "Tailwindcss",
     ],
     images: "https://i.ibb.co/F4N12Xq/uiu-ms.jpg",
   },

@@ -35,7 +35,7 @@ const About = () => {
               ever-dynamic realm of IT.
               
               <div className="mx-auto md:ml-36 mt-7 md:mt-4 bg-purple-500 w-fit p-2 rounded-md  hover:bg-purple-800 cursor-pointer">
-                <a href="https://drive.google.com/file/d/1g4of5gmD2V953mF9T9r0wClSqL5xTl1G/view?usp=sharing" download="saiftasnim_resume" target="_blank">
+                <a href="https://drive.google.com/file/d/1UYwi5AXFmCe4aac7aEOdwGwq-9ArgEFC/view?usp=sharing" download="saiftasnim_resume" target="_blank">
                   Download CV
                 </a>
               </div>

@@ -18,24 +18,24 @@ const Contact = () => {
         Contact With Saif
       </h1>
 
-      <div className="my-20 flex justify-around">
+      <div className="my-20 flex flex-col gap-12 md:flex-row md:justify-around">
         <div>
           <h1 className="text-lg font-bold mb-4"> Mailing Address </h1>
           <p className="py-1 flex gap-3">
-            <span>🏠</span>
+            <span className="hidden md:block">🏠</span>
             <span className="underline">Home Address :</span>
             <span> Khilkhet, Dhaka, Bangladesh </span>
           </p>
           <p className="py-1 flex gap-3">
-            <span>📧</span>
+            <span className="hidden md:block">📧</span>
             <span className="underline">Email Address :</span>{" "}
             <span> saiftasnim2002@gmail.com</span>
           </p>
           <p className="py-1 flex gap-3">
-            <span>📞</span>
+            <span className="hidden md:block">📞</span>
             <span className="underline">Phone : </span>{" "}
             <span>+880 1877-669501</span>{" "}
-            <span className="ml-4"> Whats APP & Telegram available ✅</span>
+            <span className="ml-4 hidden md:block"> Whats APP & Telegram available ✅</span>
           </p>
         </div>
 

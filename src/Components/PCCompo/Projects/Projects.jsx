@@ -2,17 +2,9 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div id='projects' className='my-28 flex justify-center items-center gap-6 h-screen border-2'>
-            {/* left part */}
-            <div>
-                img
-            </div>
-
-            {/* right part */}
-            <div>
-                about me
-            </div>
-        </div>
+        <section name='projects' className='pt-80'>
+            <h1 className='text-center font-bold text-xl'>Projects</h1>
+        </section>
     );
 };
 

@@ -2,3 +2,16 @@
     color: #a855f7;
     font-weight: bold;
 }
+
+.react-tabs__tab--selected{
+    background-color: white;
+    color: #a855f7;
+    font-weight: bold;
+    border: 1px solid #a855f7;
+    transition: all ease-in-out 500ms;
+}
+
+.react-tabs__tab--selected:focus{
+   outline: 0;
+}
+

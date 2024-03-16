@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import animationImg from '../../../assets/Banner/Animation - 1699716817686.gif';
-import img from '../../../assets/Banner/saif_copy.jpg';
+import img from '../../../assets/Banner/IMG_5321.jpg';
 import { TypeAnimation } from 'react-type-animation';
 import TypeAnimationReact from '../../../Animation/TypeAnimationReact';
 
@@ -37,7 +37,7 @@ const Banner = () => {
 
 
             {/* image section */}
-            <div className="w-auto lg:w-[360px] lg:h-[350px] rounded-full  
+            <div className="w-auto lg:w-[360px] lg:h-[400px] rounded-full  
             text-center mx-10 lg:mx-0 lg:mr-20 mb-12 lg:-mt-7">
                 <img src={img}
                     className='w-full h-full rounded-full border-2 border-purple-500'

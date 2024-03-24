@@ -1,5 +1,5 @@
 # My Portfolio
 
-Currently, available in Netlify:
+Currently, available in Surge:
 
-- [Portfolio Live URL](https://65f5f3ef846e7cecbda42186--gilded-semolina-a581b0.netlify.app/) 
+- [Portfolio Live URL] (https://saif-tasnim-portfolio.surge.sh/)
